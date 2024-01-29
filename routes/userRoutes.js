@@ -4,8 +4,6 @@ import bcrypt from "bcrypt"
 import {loginUser,generateOtp} from "../helperFunction.js"
 import sendmail from "../resetEmai.js"
 
-
-
 const router = express.Router()
 
 router.post("/register",async(req,res)=>{
