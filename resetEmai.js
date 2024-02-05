@@ -10,7 +10,7 @@ let sendmail =async (receiver, text, html, subject) => {
     service: "gmail",
     auth: {
       user: "jeyachandranjcs@gmail.com",
-      pass: pass,
+      pass: "qecs rwxn iktc palu",
     },
   });
 
